@@ -33,6 +33,16 @@ section.padding {
   padding: 5rem 0;
 }
 
+section img.selfie {
+  height: 100%;
+  left: 50%;
+  object-fit: cover;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  width: 50%;
+  z-index: -1;
+}
 section img.background {
   height: 100%;
   left: 50%;

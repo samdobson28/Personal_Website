@@ -20,6 +20,7 @@ import React from "react";
  * freely use on your site.
  */
 import image from "../images/design-desk.jpeg";
+import image2 from "../images/resumescreen.png";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -31,29 +32,40 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "DefFest 2024 Website",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "In the works!",
+    url: "https://2024.devfestcu.com/",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Web Animations Project",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "In the works!",
+    url: "",
   },
   {
-    title: "My Resume Site",
-    description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+    title: "My Resume",
+    description: <img src={image2} alt="Resume Screenshot" width="250px" height="180.75px" />,
+    url: "https://drive.google.com/file/d/11aSPFE8eezzDEone5OS_9CgzALc_Cvl9/view?usp=sharing",
   },
   {
-    title: "GitHub Codespaces and github.dev",
-    description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
-  },
+    title: "Relevant Coursework",
+    description: (
+      <div>
+        <p>
+          Math:
+          <br />
+          Calc I, Calc III, Discrete Math, Linear Algebra & Probability;
+        </p>
+        <p>
+          Computer Science:
+          <br />
+          Intro Java, Computing in Context (Python), Advanced Programming, Data Structures and Algorithms, CS Theory;
+        </p>
+      </div>
+    ),
+    url: "",
+  },  
 ];
 
 const Portfolio = () => {
