@@ -20,7 +20,7 @@ import React from "react";
  * freely use on your site.
  */
 import image from "../images/design-desk.jpeg";
-import image2 from "../images/resumescreen.png";
+import image2 from "../images/resumescreen2.png";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -41,11 +41,13 @@ const projectList = [
     title: "Web Animations Project",
     description:
       "In the works!",
-    url: "",
+    //url: "",
   },
   {
     title: "My Resume",
-    description: <img src={image2} alt="Resume Screenshot" width="250px" height="180.75px" />,
+    description: <a href="https://drive.google.com/file/d/11aSPFE8eezzDEone5OS_9CgzALc_Cvl9/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+    <img src={image2} alt="Resume Screenshot" width="250px" height="280" />
+  </a>,
     url: "https://drive.google.com/file/d/11aSPFE8eezzDEone5OS_9CgzALc_Cvl9/view?usp=sharing",
   },
   {
@@ -64,7 +66,7 @@ const projectList = [
         </p>
       </div>
     ),
-    url: "",
+    //url: "",
   },  
 ];
 
