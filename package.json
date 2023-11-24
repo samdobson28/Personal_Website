@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
-  "homepage": "http://samdobson28.github.io/Personal_Website",
+  "homepage": "https://samdobson28.github.io/Personal_Website",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
