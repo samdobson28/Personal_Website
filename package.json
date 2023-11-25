@@ -1,7 +1,7 @@
 {
   "name": "educator-js-codespace-template",
   "version": "1.0.0",
-  "description": "Educator JS Codespace Template",
+  "description": "Sam Dobson Website",
   "source": "src/index.html",
   "homepage": "http://{samdobson28}.github.io/{Personal_Website}",
   "scripts": {
