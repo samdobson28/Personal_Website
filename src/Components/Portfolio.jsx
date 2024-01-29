@@ -20,7 +20,7 @@ import React from "react";
  * freely use on your site.
  */
 import image from "../images/design-desk.jpeg";
-import image2 from "../images/resumescreen2.png";
+import image2 from "../images/Resume_scrn.png";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -32,20 +32,20 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "DefFest 2024 Website",
+    title: "DevfFest 2024 Website",
     description:
-      "In the works!",
+      "Click above to check it out! Website for Columbia's 2024 hackathon with 600+ applicants. Did frontend for the website and helped organize hackathon.",
     url: "https://2024.devfestcu.com/",
   },
   {
-    title: "Web Animations Project",
+    title: "Fintech Mobile App",
     description:
-      "In the works!",
+      "Super exciting in-progress React Native project. Can't share yet!",
     //url: "",
   },
   {
     title: "My Resume",
-    description: <a href="https://drive.google.com/file/d/11aSPFE8eezzDEone5OS_9CgzALc_Cvl9/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+    description: <a href="https://drive.google.com/file/d/1oxx6vcJkkj-IoO-61xvlK-rQ69iV2ewZ/view?usp=sharing" target="_blank" rel="noopener noreferrer">
     <img src={image2} alt="Resume Screenshot" width="250px" height="280" />
   </a>,
     url: "https://drive.google.com/file/d/11aSPFE8eezzDEone5OS_9CgzALc_Cvl9/view?usp=sharing",
@@ -62,7 +62,7 @@ const projectList = [
         <p>
           Computer Science:
           <br />
-          Intro Java, Computing in Context (Python), Advanced Programming, Data Structures and Algorithms, CS Theory;
+          Intro Java, Computing in Context (Python), Advanced Programming, Data Structures and Algorithms, CS Theory, iOS Development, Web Development, Intro Databases, Deep Learning: Graphics, Fundamentals of Computer Systems, Artificial Intelligence;
         </p>
       </div>
     ),

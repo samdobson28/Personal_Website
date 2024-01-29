@@ -24,7 +24,7 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a Computer Science student studying at Columbia University class of 2025. I am really interested in theoretical computer science -- algorithm analysis, theory of computation, and ML. And I love applying theory and getting my feet wet too, of course.";
+  "I'm a Computer Science student studying at Columbia University class of 2025. I love working with teams and Product Designers to help their ideas come to life. I also am interested in applying ML, deep learning, and LLMs to my dev work. Thank you for checking out my page!";
 
 /**
  * List of some of skills or technologies you work on, are learning,
@@ -45,7 +45,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "In my spare time, I am teaching SAT test-prep courses, engaging in campus organizations, and going to the movies!";
+  "In my spare time, I am organizing a hackathon, dancing in a campus performing arts show, and going to the movies!";
 
 const About = () => {
   return (
