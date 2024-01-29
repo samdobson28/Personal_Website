@@ -27088,7 +27088,7 @@ var _stylesCss = require("./styles.css");
  * If you don't have one of the social sites listed, leave it as an empty string.
  */ const siteProps = {
     name: "Sam Dobson",
-    title: "Web Developer & Computer Science Student",
+    title: "Software Engineer & Computer Science Student",
     email: "sedobson28@gmail.com",
     gitHub: "samdobson28",
     //instagram: "",
@@ -27179,7 +27179,7 @@ var _motionBackgroundJpgDefault = parcelHelpers.interopDefault(_motionBackground
 const imageAltText = "purple and blue abstract background";
 /**
  * Sort description that expands on your title on the Home component.
- */ const description = "I'm a Computer Science student studying at Columbia University class of 2025. I am really interested in theoretical computer science -- algorithm analysis, theory of computation, and ML. And I love applying theory and getting my feet wet too, of course.";
+ */ const description = "I'm a Computer Science student studying at Columbia University class of 2025. I love working with teams and Product Designers to help their ideas come to life. I also am interested in applying ML, deep learning, and LLMs to my dev work. Thank you for checking out my page!";
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
@@ -27195,7 +27195,7 @@ const imageAltText = "purple and blue abstract background";
  * Use this to give more information about what you are passionate about,
  * how you best work, or even a quote. This will help someone learn more
  * about you on a professional level.
- */ const detailOrQuote = "In my spare time, I am teaching SAT test-prep courses, engaging in campus organizations, and going to the movies!";
+ */ const detailOrQuote = "In my spare time, I am organizing a hackathon, dancing in a campus performing arts show, and going to the movies!";
 const About = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
         className: "padding",
@@ -28754,8 +28754,8 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
  * freely use on your site.
  */ var _designDeskJpeg = require("../images/design-desk.jpeg");
 var _designDeskJpegDefault = parcelHelpers.interopDefault(_designDeskJpeg);
-var _resumescreen2Png = require("../images/resumescreen2.png");
-var _resumescreen2PngDefault = parcelHelpers.interopDefault(_resumescreen2Png);
+var _resumeScrnPng = require("../images/Resume_scrn.png");
+var _resumeScrnPngDefault = parcelHelpers.interopDefault(_resumeScrnPng);
 const imageAltText = "desktop with books and laptop";
 /**
  * Project list
@@ -28764,22 +28764,22 @@ const imageAltText = "desktop with books and laptop";
  * links section. Below is a sample, update to reflect links you'd like to highlight.
  */ const projectList = [
     {
-        title: "DefFest 2024 Website",
-        description: "In the works!",
+        title: "DevfFest 2024 Website",
+        description: "Click above to check it out! Website for Columbia's 2024 hackathon with 600+ applicants. Did frontend for the website and helped organize hackathon.",
         url: "https://2024.devfestcu.com/"
     },
     {
-        title: "Web Animations Project",
-        description: "In the works!"
+        title: "Fintech Mobile App",
+        description: "Super exciting in-progress React Native project. Can't share yet!"
     },
     {
         title: "My Resume",
         description: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-            href: "https://drive.google.com/file/d/11aSPFE8eezzDEone5OS_9CgzALc_Cvl9/view?usp=sharing",
+            href: "https://drive.google.com/file/d/1oxx6vcJkkj-IoO-61xvlK-rQ69iV2ewZ/view?usp=sharing",
             target: "_blank",
             rel: "noopener noreferrer",
             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                src: (0, _resumescreen2PngDefault.default),
+                src: (0, _resumeScrnPngDefault.default),
                 alt: "Resume Screenshot",
                 width: "250px",
                 height: "280"
@@ -28822,7 +28822,7 @@ const imageAltText = "desktop with books and laptop";
                             lineNumber: 64,
                             columnNumber: 11
                         }, undefined),
-                        "Intro Java, Computing in Context (Python), Advanced Programming, Data Structures and Algorithms, CS Theory;"
+                        "Intro Java, Computing in Context (Python), Advanced Programming, Data Structures and Algorithms, CS Theory, iOS Development, Web Development, Intro Databases, Deep Learning: Graphics, Fundamentals of Computer Systems, Artificial Intelligence;"
                     ]
                 }, void 0, true, {
                     fileName: "src/Components/Portfolio.jsx",
@@ -28948,11 +28948,11 @@ $RefreshReg$(_c, "Portfolio");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/design-desk.jpeg":"jSSP3","../images/resumescreen2.png":"lDhLr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"jSSP3":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/design-desk.jpeg":"jSSP3","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/Resume_scrn.png":"blmSY"}],"jSSP3":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "design-desk.df4cd0cf.jpeg" + "?" + Date.now();
 
-},{"./helpers/bundle-url":"lgJ39"}],"lDhLr":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "resumescreen2.797e5760.png" + "?" + Date.now();
+},{"./helpers/bundle-url":"lgJ39"}],"blmSY":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "Resume_scrn.3c535f80.png" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"lW6qc":[function() {},{}]},["1xC6H","ShInH","8lqZg"], "8lqZg", "parcelRequire6158")
 
