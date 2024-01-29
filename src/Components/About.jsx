@@ -31,11 +31,11 @@ const description =
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web development",
+  "Full-stack web development",
+  "Mobile app development",
+  "Machine learning, AI, and deep learning",
   "Algorithm development",
-  "Python, Java, C, JS, HTML, CSS",
-  "Machine learning",
-  "Software development",
+  "Python, Java, C/C++, JS, Typescript, HTML, CSS",
   "Graphic design",
 ];
 
